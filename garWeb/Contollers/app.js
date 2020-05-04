@@ -1,4 +1,4 @@
-﻿var garApp = angular.module("garApp", [ngRoute]);
+﻿var garApp = angular.module("garApp", ['ngRoute', 'ngAnimate']);
 
 garApp.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
@@ -6,13 +6,13 @@ garApp.config(['$routeProvider', function ($routeProvider) {
         .when('/', {
             templateUrl: 'Home.html', controller: 'HomeController'
         })
-        .when('/whoweare', {
+        .when('/About', {
             templateUrl: 'About.html', controller: 'AboutController'
         })
-        .when('/Products', {
-            templateUrl: 'Product.html', controller: 'ProductsController'
+        .when('/Product', {
+            templateUrl: 'Product.html', controller: 'ProductController'
         })
-        .when('/services', {
+        .when('/Service', {
             templateUrl: 'Service.html', controller: 'ServiceController'
         })
         .when('/Contact', {

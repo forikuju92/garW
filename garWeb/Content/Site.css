@@ -16,7 +16,14 @@ li.nav-item {
     margin: auto;
 }
 
+.mContent {
+    padding:0px;
+}
 
+.carousel-item img {
+    height:30%;
+
+}
 a.navbar-brand {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem;

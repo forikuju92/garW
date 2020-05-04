@@ -4,8 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="Scripts/angular.js"></script>
+    <script src="/Scripts/angular-animate.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
     <script src="Scripts/jquery-3.0.0.js"></script>
-    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/Site.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -14,16 +16,13 @@
 <body ng-app="garApp">
     <header>
         <div class="container-fluid">
-            <a class="navbar-brand" href="#/">
+            <a class="navbar-brand" href="#/!">
                 <img src="Images/logo.JPG" class="logo">
             </a>
 
         </div>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow">
-            <!--<a class="navbar-brand" href="#/">
-                <img src="Images/logo.JPG" class="logo">GAR TECHNICAL LIMITED
-            </a>-->
-            <div class="container-fluid nlinks">
+                <div class="container-fluid nlinks">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,42 +30,36 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" style="float:right!important;">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Home</a>
+                            <a class="nav-link text-dark" href="#/!">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#/About">Who we are</a>
+                            <a class="nav-link text-dark" href="#!About">Who we are</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#/Product">Products</a>
+                            <a class="nav-link text-dark" href="#!Product">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#/Service">Services</a>
+                            <a class="nav-link text-dark" href="#!Service">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#/Contact">Contact</a>
+                            <a class="nav-link text-dark" href="#!Contact">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div ng-view>
+    <div class="container-fluid mContent" ng-view ng-animate="{enter:'fade-enter'}">
 
     </div>
 
     <script src="Contollers/app.js"></script>
     <script src="Contollers/HomeController.js"></script>
-    <script src="AboutController.js"></script>
-    <script src="ProductController.js"></script>
-    <script src="ContactController.js"></script>
-    <script src="ServiceController.js"></script>
-    <script type="text/ng-template" id="Home.html"></script>
-    <script type="text/ng-template" id="About.html"></script>
-    <script type="text/ng-template" id="Product.html"></script>
-    <script type="text/ng-template" id="Service.html"></script>
-    <script type="text/ng-template" id="Contact.html"></script>
-
-
+    <script src="Contollers/AboutController.js"></script>
+    <script src="Contollers/ProductController.js"></script>
+    <script src="Contollers/ContactController.js"></script>
+    <script src="Contollers/ServiceController.js"></script>
+   
 </body>
 
 </html>
