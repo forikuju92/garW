@@ -1,0 +1,217 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gar", "gar", "{9A89B5ED-94EE-4F88-A42C-DA2DB745A1E7}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\About.html = ..\garWeb\About.html
+		..\garWeb\Contact.html = ..\garWeb\Contact.html
+		..\garWeb\favicon.ico = ..\garWeb\favicon.ico
+		..\garWeb\Home.html = ..\garWeb\Home.html
+		..\garWeb\Index.html = ..\garWeb\Index.html
+		..\garWeb\Product.html = ..\garWeb\Product.html
+		..\garWeb\Service.html = ..\garWeb\Service.html
+		SiteJs.js = SiteJs.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{B2F34848-DAC1-47A2-9AAD-9B2AD53F60FF}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Images\contacts.jpg = ..\garWeb\Images\contacts.jpg
+		..\garWeb\Images\fh1.jpg = ..\garWeb\Images\fh1.jpg
+		..\garWeb\Images\fh2.jpg = ..\garWeb\Images\fh2.jpg
+		..\garWeb\Images\fh3.jpg = ..\garWeb\Images\fh3.jpg
+		..\garWeb\Images\logo.JPG = ..\garWeb\Images\logo.JPG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contollers", "Contollers", "{5B786117-425B-47B7-889C-CF96486071D0}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Contollers\AboutController.js = ..\garWeb\Contollers\AboutController.js
+		..\garWeb\Contollers\app.js = ..\garWeb\Contollers\app.js
+		..\garWeb\Contollers\ContactController.js = ..\garWeb\Contollers\ContactController.js
+		..\garWeb\Contollers\HomeController.js = ..\garWeb\Contollers\HomeController.js
+		..\garWeb\Contollers\ProductController.js = ..\garWeb\Contollers\ProductController.js
+		..\garWeb\Contollers\ServiceController.js = ..\garWeb\Contollers\ServiceController.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{7CAA45C0-64DF-47E0-9E4A-AFBF92FABD07}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Scripts\angular-animate.js = ..\garWeb\Scripts\angular-animate.js
+		..\garWeb\Scripts\angular-animate.min.js = ..\garWeb\Scripts\angular-animate.min.js
+		..\garWeb\Scripts\angular-animate.min.js.map = ..\garWeb\Scripts\angular-animate.min.js.map
+		..\garWeb\Scripts\angular-mocks.js = ..\garWeb\Scripts\angular-mocks.js
+		..\garWeb\Scripts\angular-route.js = ..\garWeb\Scripts\angular-route.js
+		..\garWeb\Scripts\angular-route.min.js = ..\garWeb\Scripts\angular-route.min.js
+		..\garWeb\Scripts\angular-route.min.js.map = ..\garWeb\Scripts\angular-route.min.js.map
+		..\garWeb\Scripts\angular.js = ..\garWeb\Scripts\angular.js
+		..\garWeb\Scripts\angular.min.js = ..\garWeb\Scripts\angular.min.js
+		..\garWeb\Scripts\angular.min.js.map = ..\garWeb\Scripts\angular.min.js.map
+		..\garWeb\Scripts\bootstrap.bundle.js = ..\garWeb\Scripts\bootstrap.bundle.js
+		..\garWeb\Scripts\bootstrap.bundle.js.map = ..\garWeb\Scripts\bootstrap.bundle.js.map
+		..\garWeb\Scripts\bootstrap.bundle.min.js = ..\garWeb\Scripts\bootstrap.bundle.min.js
+		..\garWeb\Scripts\bootstrap.bundle.min.js.map = ..\garWeb\Scripts\bootstrap.bundle.min.js.map
+		..\garWeb\Scripts\bootstrap.js = ..\garWeb\Scripts\bootstrap.js
+		..\garWeb\Scripts\bootstrap.js.map = ..\garWeb\Scripts\bootstrap.js.map
+		..\garWeb\Scripts\bootstrap.min.js = ..\garWeb\Scripts\bootstrap.min.js
+		..\garWeb\Scripts\bootstrap.min.js.map = ..\garWeb\Scripts\bootstrap.min.js.map
+		..\garWeb\Scripts\index.d.ts = ..\garWeb\Scripts\index.d.ts
+		..\garWeb\Scripts\index.js.flow = ..\garWeb\Scripts\index.js.flow
+		..\garWeb\Scripts\jquery-3.0.0-vsdoc.js = ..\garWeb\Scripts\jquery-3.0.0-vsdoc.js
+		..\garWeb\Scripts\jquery-3.0.0.js = ..\garWeb\Scripts\jquery-3.0.0.js
+		..\garWeb\Scripts\jquery-3.0.0.min.js = ..\garWeb\Scripts\jquery-3.0.0.min.js
+		..\garWeb\Scripts\jquery-3.0.0.min.map = ..\garWeb\Scripts\jquery-3.0.0.min.map
+		..\garWeb\Scripts\jquery-3.0.0.slim.js = ..\garWeb\Scripts\jquery-3.0.0.slim.js
+		..\garWeb\Scripts\jquery-3.0.0.slim.min.js = ..\garWeb\Scripts\jquery-3.0.0.slim.min.js
+		..\garWeb\Scripts\jquery-3.0.0.slim.min.map = ..\garWeb\Scripts\jquery-3.0.0.slim.min.map
+		..\garWeb\Scripts\popper-utils.js = ..\garWeb\Scripts\popper-utils.js
+		..\garWeb\Scripts\popper-utils.js.map = ..\garWeb\Scripts\popper-utils.js.map
+		..\garWeb\Scripts\popper-utils.min.js = ..\garWeb\Scripts\popper-utils.min.js
+		..\garWeb\Scripts\popper-utils.min.js.map = ..\garWeb\Scripts\popper-utils.min.js.map
+		..\garWeb\Scripts\popper.js = ..\garWeb\Scripts\popper.js
+		..\garWeb\Scripts\popper.js.map = ..\garWeb\Scripts\popper.js.map
+		..\garWeb\Scripts\popper.min.js = ..\garWeb\Scripts\popper.min.js
+		..\garWeb\Scripts\popper.min.js.map = ..\garWeb\Scripts\popper.min.js.map
+		..\garWeb\Scripts\README.md = ..\garWeb\Scripts\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{212198E9-665B-45EA-9DFA-5643FA6BF827}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Content\bootstrap-grid.css = ..\garWeb\Content\bootstrap-grid.css
+		..\garWeb\Content\bootstrap-grid.css.map = ..\garWeb\Content\bootstrap-grid.css.map
+		..\garWeb\Content\bootstrap-grid.min.css = ..\garWeb\Content\bootstrap-grid.min.css
+		..\garWeb\Content\bootstrap-grid.min.css.map = ..\garWeb\Content\bootstrap-grid.min.css.map
+		..\garWeb\Content\bootstrap-reboot.css = ..\garWeb\Content\bootstrap-reboot.css
+		..\garWeb\Content\bootstrap-reboot.css.map = ..\garWeb\Content\bootstrap-reboot.css.map
+		..\garWeb\Content\bootstrap-reboot.min.css = ..\garWeb\Content\bootstrap-reboot.min.css
+		..\garWeb\Content\bootstrap-reboot.min.css.map = ..\garWeb\Content\bootstrap-reboot.min.css.map
+		..\garWeb\Content\bootstrap.css = ..\garWeb\Content\bootstrap.css
+		..\garWeb\Content\bootstrap.css.map = ..\garWeb\Content\bootstrap.css.map
+		..\garWeb\Content\bootstrap.min.css = ..\garWeb\Content\bootstrap.min.css
+		..\garWeb\Content\bootstrap.min.css.map = ..\garWeb\Content\bootstrap.min.css.map
+		..\garWeb\Content\Site.css = ..\garWeb\Content\Site.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "esm", "esm", "{599584F8-0AF5-4E79-8D4B-A172578C76F1}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Scripts\esm\popper-utils.js = ..\garWeb\Scripts\esm\popper-utils.js
+		..\garWeb\Scripts\esm\popper-utils.js.map = ..\garWeb\Scripts\esm\popper-utils.js.map
+		..\garWeb\Scripts\esm\popper-utils.min.js = ..\garWeb\Scripts\esm\popper-utils.min.js
+		..\garWeb\Scripts\esm\popper-utils.min.js.map = ..\garWeb\Scripts\esm\popper-utils.min.js.map
+		..\garWeb\Scripts\esm\popper.js = ..\garWeb\Scripts\esm\popper.js
+		..\garWeb\Scripts\esm\popper.js.map = ..\garWeb\Scripts\esm\popper.js.map
+		..\garWeb\Scripts\esm\popper.min.js = ..\garWeb\Scripts\esm\popper.min.js
+		..\garWeb\Scripts\esm\popper.min.js.map = ..\garWeb\Scripts\esm\popper.min.js.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E5F739C-C932-42D2-91C5-51070815F15C}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Scripts\src\index.js = ..\garWeb\Scripts\src\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "umd", "umd", "{32B18042-AA5F-4860-B9F1-8E907AAB0C54}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Scripts\umd\popper-utils.js = ..\garWeb\Scripts\umd\popper-utils.js
+		..\garWeb\Scripts\umd\popper-utils.js.map = ..\garWeb\Scripts\umd\popper-utils.js.map
+		..\garWeb\Scripts\umd\popper-utils.min.js = ..\garWeb\Scripts\umd\popper-utils.min.js
+		..\garWeb\Scripts\umd\popper-utils.min.js.map = ..\garWeb\Scripts\umd\popper-utils.min.js.map
+		..\garWeb\Scripts\umd\popper.js = ..\garWeb\Scripts\umd\popper.js
+		..\garWeb\Scripts\umd\popper.js.flow = ..\garWeb\Scripts\umd\popper.js.flow
+		..\garWeb\Scripts\umd\popper.js.map = ..\garWeb\Scripts\umd\popper.js.map
+		..\garWeb\Scripts\umd\popper.min.js = ..\garWeb\Scripts\umd\popper.min.js
+		..\garWeb\Scripts\umd\popper.min.js.map = ..\garWeb\Scripts\umd\popper.min.js.map
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "methods", "methods", "{33047EC3-AC4F-410B-8D7F-A6A70F018833}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Scripts\src\methods\defaults.js = ..\garWeb\Scripts\src\methods\defaults.js
+		..\garWeb\Scripts\src\methods\destroy.js = ..\garWeb\Scripts\src\methods\destroy.js
+		..\garWeb\Scripts\src\methods\disableEventListeners.js = ..\garWeb\Scripts\src\methods\disableEventListeners.js
+		..\garWeb\Scripts\src\methods\enableEventListeners.js = ..\garWeb\Scripts\src\methods\enableEventListeners.js
+		..\garWeb\Scripts\src\methods\placements.js = ..\garWeb\Scripts\src\methods\placements.js
+		..\garWeb\Scripts\src\methods\update.js = ..\garWeb\Scripts\src\methods\update.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modifiers", "modifiers", "{6EFB2DB0-52C0-4CD0-83CA-D9FE5D678DDB}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Scripts\src\modifiers\applyStyle.js = ..\garWeb\Scripts\src\modifiers\applyStyle.js
+		..\garWeb\Scripts\src\modifiers\arrow.js = ..\garWeb\Scripts\src\modifiers\arrow.js
+		..\garWeb\Scripts\src\modifiers\computeStyle.js = ..\garWeb\Scripts\src\modifiers\computeStyle.js
+		..\garWeb\Scripts\src\modifiers\flip.js = ..\garWeb\Scripts\src\modifiers\flip.js
+		..\garWeb\Scripts\src\modifiers\hide.js = ..\garWeb\Scripts\src\modifiers\hide.js
+		..\garWeb\Scripts\src\modifiers\index.js = ..\garWeb\Scripts\src\modifiers\index.js
+		..\garWeb\Scripts\src\modifiers\inner.js = ..\garWeb\Scripts\src\modifiers\inner.js
+		..\garWeb\Scripts\src\modifiers\keepTogether.js = ..\garWeb\Scripts\src\modifiers\keepTogether.js
+		..\garWeb\Scripts\src\modifiers\offset.js = ..\garWeb\Scripts\src\modifiers\offset.js
+		..\garWeb\Scripts\src\modifiers\preventOverflow.js = ..\garWeb\Scripts\src\modifiers\preventOverflow.js
+		..\garWeb\Scripts\src\modifiers\shift.js = ..\garWeb\Scripts\src\modifiers\shift.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{44077D48-6381-4906-B838-EB2994194B25}"
+	ProjectSection(SolutionItems) = preProject
+		..\garWeb\Scripts\src\utils\clockwise.js = ..\garWeb\Scripts\src\utils\clockwise.js
+		..\garWeb\Scripts\src\utils\computeAutoPlacement.js = ..\garWeb\Scripts\src\utils\computeAutoPlacement.js
+		..\garWeb\Scripts\src\utils\debounce.js = ..\garWeb\Scripts\src\utils\debounce.js
+		..\garWeb\Scripts\src\utils\find.js = ..\garWeb\Scripts\src\utils\find.js
+		..\garWeb\Scripts\src\utils\findCommonOffsetParent.js = ..\garWeb\Scripts\src\utils\findCommonOffsetParent.js
+		..\garWeb\Scripts\src\utils\findIndex.js = ..\garWeb\Scripts\src\utils\findIndex.js
+		..\garWeb\Scripts\src\utils\getBordersSize.js = ..\garWeb\Scripts\src\utils\getBordersSize.js
+		..\garWeb\Scripts\src\utils\getBoundaries.js = ..\garWeb\Scripts\src\utils\getBoundaries.js
+		..\garWeb\Scripts\src\utils\getBoundingClientRect.js = ..\garWeb\Scripts\src\utils\getBoundingClientRect.js
+		..\garWeb\Scripts\src\utils\getClientRect.js = ..\garWeb\Scripts\src\utils\getClientRect.js
+		..\garWeb\Scripts\src\utils\getFixedPositionOffsetParent.js = ..\garWeb\Scripts\src\utils\getFixedPositionOffsetParent.js
+		..\garWeb\Scripts\src\utils\getOffsetParent.js = ..\garWeb\Scripts\src\utils\getOffsetParent.js
+		..\garWeb\Scripts\src\utils\getOffsetRect.js = ..\garWeb\Scripts\src\utils\getOffsetRect.js
+		..\garWeb\Scripts\src\utils\getOffsetRectRelativeToArbitraryNode.js = ..\garWeb\Scripts\src\utils\getOffsetRectRelativeToArbitraryNode.js
+		..\garWeb\Scripts\src\utils\getOppositePlacement.js = ..\garWeb\Scripts\src\utils\getOppositePlacement.js
+		..\garWeb\Scripts\src\utils\getOppositeVariation.js = ..\garWeb\Scripts\src\utils\getOppositeVariation.js
+		..\garWeb\Scripts\src\utils\getOuterSizes.js = ..\garWeb\Scripts\src\utils\getOuterSizes.js
+		..\garWeb\Scripts\src\utils\getParentNode.js = ..\garWeb\Scripts\src\utils\getParentNode.js
+		..\garWeb\Scripts\src\utils\getPopperOffsets.js = ..\garWeb\Scripts\src\utils\getPopperOffsets.js
+		..\garWeb\Scripts\src\utils\getReferenceNode.js = ..\garWeb\Scripts\src\utils\getReferenceNode.js
+		..\garWeb\Scripts\src\utils\getReferenceOffsets.js = ..\garWeb\Scripts\src\utils\getReferenceOffsets.js
+		..\garWeb\Scripts\src\utils\getRoot.js = ..\garWeb\Scripts\src\utils\getRoot.js
+		..\garWeb\Scripts\src\utils\getRoundedOffsets.js = ..\garWeb\Scripts\src\utils\getRoundedOffsets.js
+		..\garWeb\Scripts\src\utils\getScroll.js = ..\garWeb\Scripts\src\utils\getScroll.js
+		..\garWeb\Scripts\src\utils\getScrollParent.js = ..\garWeb\Scripts\src\utils\getScrollParent.js
+		..\garWeb\Scripts\src\utils\getStyleComputedProperty.js = ..\garWeb\Scripts\src\utils\getStyleComputedProperty.js
+		..\garWeb\Scripts\src\utils\getSupportedPropertyName.js = ..\garWeb\Scripts\src\utils\getSupportedPropertyName.js
+		..\garWeb\Scripts\src\utils\getViewportOffsetRectRelativeToArtbitraryNode.js = ..\garWeb\Scripts\src\utils\getViewportOffsetRectRelativeToArtbitraryNode.js
+		..\garWeb\Scripts\src\utils\getWindow.js = ..\garWeb\Scripts\src\utils\getWindow.js
+		..\garWeb\Scripts\src\utils\getWindowSizes.js = ..\garWeb\Scripts\src\utils\getWindowSizes.js
+		..\garWeb\Scripts\src\utils\includeScroll.js = ..\garWeb\Scripts\src\utils\includeScroll.js
+		..\garWeb\Scripts\src\utils\index.js = ..\garWeb\Scripts\src\utils\index.js
+		..\garWeb\Scripts\src\utils\isBrowser.js = ..\garWeb\Scripts\src\utils\isBrowser.js
+		..\garWeb\Scripts\src\utils\isFixed.js = ..\garWeb\Scripts\src\utils\isFixed.js
+		..\garWeb\Scripts\src\utils\isFunction.js = ..\garWeb\Scripts\src\utils\isFunction.js
+		..\garWeb\Scripts\src\utils\isIE.js = ..\garWeb\Scripts\src\utils\isIE.js
+		..\garWeb\Scripts\src\utils\isModifierEnabled.js = ..\garWeb\Scripts\src\utils\isModifierEnabled.js
+		..\garWeb\Scripts\src\utils\isModifierRequired.js = ..\garWeb\Scripts\src\utils\isModifierRequired.js
+		..\garWeb\Scripts\src\utils\isNumeric.js = ..\garWeb\Scripts\src\utils\isNumeric.js
+		..\garWeb\Scripts\src\utils\isOffsetContainer.js = ..\garWeb\Scripts\src\utils\isOffsetContainer.js
+		..\garWeb\Scripts\src\utils\removeEventListeners.js = ..\garWeb\Scripts\src\utils\removeEventListeners.js
+		..\garWeb\Scripts\src\utils\runModifiers.js = ..\garWeb\Scripts\src\utils\runModifiers.js
+		..\garWeb\Scripts\src\utils\setAttributes.js = ..\garWeb\Scripts\src\utils\setAttributes.js
+		..\garWeb\Scripts\src\utils\setStyles.js = ..\garWeb\Scripts\src\utils\setStyles.js
+		..\garWeb\Scripts\src\utils\setupEventListeners.js = ..\garWeb\Scripts\src\utils\setupEventListeners.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2F34848-DAC1-47A2-9AAD-9B2AD53F60FF} = {9A89B5ED-94EE-4F88-A42C-DA2DB745A1E7}
+		{5B786117-425B-47B7-889C-CF96486071D0} = {9A89B5ED-94EE-4F88-A42C-DA2DB745A1E7}
+		{7CAA45C0-64DF-47E0-9E4A-AFBF92FABD07} = {9A89B5ED-94EE-4F88-A42C-DA2DB745A1E7}
+		{212198E9-665B-45EA-9DFA-5643FA6BF827} = {9A89B5ED-94EE-4F88-A42C-DA2DB745A1E7}
+		{599584F8-0AF5-4E79-8D4B-A172578C76F1} = {7CAA45C0-64DF-47E0-9E4A-AFBF92FABD07}
+		{1E5F739C-C932-42D2-91C5-51070815F15C} = {7CAA45C0-64DF-47E0-9E4A-AFBF92FABD07}
+		{32B18042-AA5F-4860-B9F1-8E907AAB0C54} = {7CAA45C0-64DF-47E0-9E4A-AFBF92FABD07}
+		{33047EC3-AC4F-410B-8D7F-A6A70F018833} = {1E5F739C-C932-42D2-91C5-51070815F15C}
+		{6EFB2DB0-52C0-4CD0-83CA-D9FE5D678DDB} = {1E5F739C-C932-42D2-91C5-51070815F15C}
+		{44077D48-6381-4906-B838-EB2994194B25} = {1E5F739C-C932-42D2-91C5-51070815F15C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34B0FE92-7B46-4156-848C-9E9859BD67CC}
+	EndGlobalSection
+EndGlobal
